@@ -1,0 +1,94 @@
+## If sequences were generated from paired-end libraries, make sure that members of the read pair can be identified by /1 and /2.
+## Also, interleave paired reads in FASTA file(s).
+
+##================
+## General opitons
+##================
+## Number of CPUs (max, min, or integer)
+## max: all CPUs, min: 1 CPU, or an integer
+ncpu	max
+
+
+##================
+## I. Gene Finding
+##================
+## Peform gene finding
+call	1
+
+## Gene caller options
+## Currently, SPA supports the following gene callers. 
+## 0:FragGeneScan(FGS), 1:MetaGeneAnnotator(MGA)
+gene	0
+
+##------------------------
+## 1. FragGeneScan options
+##------------------------
+## The following three options are used for ORF call with FGS and filtering FGS output.
+## If MGA is used, these options are are disregared.
+## FGS  complete genomic sequence option (0:short sequences, 1:complete genomic sequences)
+complete	0
+## FGS train option (complete, sanger_5, sanger_10, 454_10, 454_30, illumina_5, or illumina_10)
+train	illumina_10
+## Filter out FGS ORF prediction with indels (1:true or 0:false).
+## Most base errors in Illumina platforms are substitution errors.
+dropindel	1
+
+##----------------------------
+## 2. MetaGeneAnnotator option
+##----------------------------
+## MGA genome option (s:single genome, m:metagenome)
+## If FGS is used, this option is disregarded.
+mga	m
+
+
+##=============
+## II. Assembly
+##=============
+## Peform assembly
+assemble  1
+
+## Size of kmer
+kmer	6
+
+## Paired-end read (1:true or 0:false)
+## If this option is set to true, SFA-SPA assumes input reads are interleaved.
+paired	1
+
+## Seed coverage
+## Minimum depth of seed
+seed-coverage	5
+
+## Seed reuse
+## If this option is set to 1, seed kmers found in the previous paths are used for seeding paths.
+## Otherwise, seed kmers found in the previous paths are ignored for seeding paths.
+seed-reuse	0
+
+## Minimum supporting reads in a neighboring node.
+## Supporting reads between current and neighboring nodes with lower than the following support are ignored.
+read-support	5
+
+## Mininum overlap length of suffix array search
+overlap-length	15
+
+## Generate profile output (1:true or 0:false).
+profile	0
+
+## Generate alignment output (1:true of 0:false).
+alignment	0
+
+## Verbosity (0: quiet, 1: brief, 2: detailed, 3: very wordy)
+verbose	0
+
+##=====================
+## III. Post processing
+##=====================
+## Peform post processing
+clean	1
+
+## Post-processing gene caller (0:FragGeneScan, 1:MetaGeneAnnotator, 2:Both)
+## Same gene finder is recommened used in the gene finding stage.
+post	0
+
+## Mininum length of sequence length
+## Sequences with shorter the follwing length are ignored.
+length	60

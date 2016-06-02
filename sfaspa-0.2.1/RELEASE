@@ -1,0 +1,5 @@
+[2015-02-25 14:12]
+Version: 0.2.1
+Changes:
+1. A sequence trimming bug is fixed.
+2. A gap handling bug is  fixed.

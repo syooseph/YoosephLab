@@ -1,0 +1,16 @@
+The following Perl libraries need to be installed.
+
+- Set::Scalar
+- Getopt::Long
+- Time::HiRes
+- constant
+- Statistics::Lite
+- POSIX
+- File::Basename
+- File::Spec
+
+Most of above perl libraries are pre-installed with perl 5.
+Any uninstalled library will be installed with perl_libs.sh
+during installation.
+perl_libs.sh requires root previledge to install libraries.
+If you do not have root permission, install them mannually.
