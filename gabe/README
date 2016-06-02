@@ -1,0 +1,74 @@
+This program is an alternative implementation of GRAMMy [1] which
+computes the relative abundances of genomes using the expectaion
+maximizaiton (EM) approach.
+This program was tested on 64 bit CentOS release 6.4.
+
+
+##====================================================================
+## Requirement
+##====================================================================
+1. gcc 4.9.0 or newer
+2. perl 5
+
+##====================================================================
+## Installation
+##====================================================================
+1. If you downloaded the source file version, do the following
+installation procedure.
+tar zxvf gabe-version-source.tar.gz
+cd gabe-version
+export GABE=$PWD
+cd src
+make
+
+2. In case you downloaded the pre-built version, you only need to
+unpack the file and export GABE path.
+tar zxvf gabe-version-binary.tar.gz
+cd gabe-version
+export GABE=$PWD
+
+##====================================================================
+## Program inputs
+##====================================================================
+1. A BWA mapping file in SAM (NOT in BAM) format is required.
+2. A file for sequence description is required.
+ - Each line must consists of contig identifer and genome identifier,
+   separated by whitespace.
+ - Contig IDs must be identical to contigs IDs in BWA mapping file.
+ - The genome identifier can be NCBI taxonomic ID or any unique value,
+   such that mutiple contigs for a single genome share a same genome ID.
+ - See $GABE/example/genome_desc as an example.
+
+##====================================================================
+## Program outputs
+##====================================================================
+1. gabe_preliminaries
+ - Prelimiary relative abundances of 1/N strategy and multiple counting
+2. gabe_abundances
+ - Final relative abundance estimation 
+3. gabe_assignments
+ - Read assignment based on probability
+4. gabe_intervals
+ - Bootstrapping confidence interval of relative abundances
+ - The file is generated ONLY when bootstrapping option is set.
+
+##====================================================================
+## How to run
+##====================================================================
+1. To see help:
+   $GABE/script/estimate_abundance.pl -h
+
+2. Example run:
+   $GABE/script/estimate_abundance.pl -b $GABE/example/example.sam -z -g $GABE/example/genome_desc -o $GABE/example
+
+3. Rerun by differing program options using the previously generated matrix:
+   $GABE/script/estimate_abundance.pl -M -B -T 100 -P 30 -g $GABE/example/genome_desc -o $GABE/example
+   With this command, the program performs bootstrapping with 100
+   iterations and 30% of sampled data.
+
+##====================================================================
+## References
+##====================================================================
+1. Li C. Xia, Jacob A. Cram, Ting Chen, Jed A. Fuhrman, Fengzhu Sun,
+   Accurate genome relative abundance estimation based on shotgun
+   metagenomic reads. PLoS ONE 2011, 6(12):p.e27992
