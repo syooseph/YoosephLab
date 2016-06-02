@@ -1,0 +1,4 @@
+To install, please open the "Makefile" file and modify the second line:
+"CURRENT=/home/cczhong/Codes/GRASPx_src" to "CURRENT=[Your current directory]".
+
+Then, type "make".

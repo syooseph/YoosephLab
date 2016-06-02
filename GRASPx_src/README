@@ -1,0 +1,18 @@
+# 
+# GRASPx: Guided Reference-based Assembly of Short Peptides (fast version)
+#
+# For questions, comments, or bug reports please contact Cuncong Zhong (czhong@jcvi.org)
+#
+
+Usage (assume you are under the home directory of GRASPx):
+
+1: Create indexing file:
+	"./graspx-build Examples/mix3fams.fa"
+
+2: Perform assembly:
+	"./graspx-assemble Examples/1VDX_A.fa Examples/mix3fams.fa out_contigs.fa"
+
+3: Align individual reads to the output contigs:
+	"./graspx-map Examples/mix3fams.fa out_contigs.fa out_contigs.map"
+
+For more options, please use "--help" for each of the programs. 
