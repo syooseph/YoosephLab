@@ -1,0 +1,93 @@
+## If sequences were generated from paired-end libraries, make sure that members of the read pair can be identified by /1 and /2.
+## Also, interleave paired reads in FASTA file(s).
+
+##================
+## I. Gene Finding
+##================
+## Gene caller options
+## Currently, SPA supports the following gene callers. 
+## 0:FragGeneScan(FGS), 1:MetaGeneAnnotator(MGA)
+gene	0
+
+##------------------------
+## 1. FragGeneScan options
+##------------------------
+## The following three options are used for ORF call with FGS and filtering FGS output.
+## If MGA is used, these options are are disregared.
+## FGS  complete genomic sequence option (0:short sequences, 1:complete genomic sequences)
+complete	0
+## FGS train option (complete, sanger_5, sanger_10, 454_10, 454_30, illumina_5, or illumina_10)
+train	illumina_10
+## Filter out FGS ORF prediction with indels (1:true or 0:false).
+## Most base errors in Illumina platforms are substitution errors.
+dropindel	1
+
+##----------------------------
+## 2. MetaGeneAnnotator option
+##----------------------------
+## MGA genome option (s:single genome, m:metagenome)
+## If FGS is used, this option is disregarded.
+mga	m
+
+## Number of CPUs 
+## ORFs can be called in parallel. Increase CPU size to speed up this stage.
+ncpu	4
+
+
+##=============
+## II. Assembly
+##=============
+## Size of kmer
+kmer	6
+
+## Paired-end read (1:true or 0:false)
+## If this option is set to true, SPA assumes input reads are interleaved.
+paired	1
+
+## Graph trimming (1:true or 0:false)
+## Trim vertices/edges with low coverage
+trim	1
+
+## Minimum kmer coverage for trimming graph
+## Vertices and edges with lower coverage than the following value are trimmed. 
+## If trim option is off, this option is ignored.
+min-coverage	5
+
+## Minimum number of same reads in a neighboring node.
+## Sharing reads between current and neighboring nodes with lower than the following support are ignored.
+min-share	5
+
+## Maximum distant node in a path to find same reads in a current node
+distance	20
+
+## Minimum base coverage in consensus
+## Leading and trailing bases with lower than the folllowing coverage are trimmed from a consensus sequence.
+base-depth	3
+
+## Median base depth in consensus
+## A path with lower than the following median base depth is discarded.
+med-coverage	10
+
+## Top x% percentile of seed kmers
+## Path search utilizes top x% of seed kmers.
+percentile	50
+
+## Generate profile output (1:true or 0:false).
+profile	0
+
+## Generate alignment output (1:true of 0:false).
+alignment	0
+
+## Verbosity (1:true or 0:false)
+verbose	0
+
+##=====================
+## III. Post processing
+##=====================
+## Post-processing gene caller (0:FragGeneScan, 1:MetaGeneAnnotator, 2:Both)
+## Same gene finder is recommened used in the gene finding stage.
+post	0
+
+## Mininum length of sequence length
+## Sequences with shorter the follwing length are ignored.
+length	60

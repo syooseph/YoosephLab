@@ -1,0 +1,7 @@
+The following three genomes were used for examle reads.
+Accession	Genome
+NC_004606	Streptococcus_pyogenes_SSI_1_uid57895
+NC_004070	Streptococcus_pyogenes_MGAS315_uid57911
+NC_003485	Streptococcus_pyogenes_MGAS8232_uid57871
+For each genome, 100 bp paired-end reads were generated using wgsim with no sequencing error and 20x genomic coverage.
+Then, reads from three genomes were combined in a singe FASTA file.
