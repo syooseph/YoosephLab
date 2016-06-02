@@ -1,0 +1,5 @@
+# compiling libdivsufsort
+
+cmake -DCMAKE_BUILD_TYPE="Release" -DCMAKE_INSTALL_PREFIX="[PATH]" -DBUILD_DIVSUFSORT64:BOOL=ON
+
+make
