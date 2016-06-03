@@ -1,0 +1,45 @@
+# #########################################################################################################
+# This is a sample parameter sheet for running HMM-GRASPx.
+#
+# Note that this sheet is optional, and if not provided HMM-GRASPx will be run with default parameters.
+#
+# Also note that the sample sheet only contains a subset (important ones) of tunable parameters,
+#   and you can check out other options with the '--help' option while running individual executables.
+# #########################################################################################################    
+# The number of threads that are going to be used for the alignment/assembly module
+NUM_THREADS=1
+
+# The length of the seeds, this is going to be used for the index building step
+SEED_LEN=6
+
+# The minimum length of overlap required between two seeds to be connected
+# This is going to be used for the indexing building step
+OVERLAP_LEN=10
+
+# The maximum number of extension step for each identified seed, used by the alignment/assembly module
+# Warning: increasing the assembly depth would make the program run much slower!!!
+ASSEMBLY_DEPTH=5
+
+# The band size for the alignment, used by the alignment/assembly module
+# Increasing the band_size would increase the sensitivity at a cost of slower running time
+ALIGNMENT_BAND_SIZE=20
+
+# Tag for whether allowing a read to be assembled multiple times
+# Please set value as true/false
+# Warning: allowing duplicated reads would make the program run much slower!!!
+ALLOW_DUP_READS=false
+
+# Number of steps to extend assembled contigs unless a branching node is met
+PROGRESSIVE_EXT=1
+
+# The P-value cutoff for HMM-GRASPx (a roughly computed measure)
+HMMGRASPX_PVALUE=0.05
+
+# The E-value cutoff (domain) for hmmsearch (HMMER3) in the post-processing step
+HMMSEARCH_EVALUE=0.01
+
+# The number of substitution errors allowed for the mapping step
+MAP_NUM_ERRORS=3
+
+# The minimum portion of the short-peptide read that needs to be aligned in order to be deemed as "recruited"
+MAP_LEN_PORTION=0.6
