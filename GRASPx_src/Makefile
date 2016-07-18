@@ -1,15 +1,22 @@
+# Please set the following paths before compilation
+
+# This should be the path to the home directory of GRASPx
+CURRENT=/home/cczhong/Codes/GRASPx_current
+# This should be the home directory of BOOST library; remember also adding lib directory into LD_LIBDARY_PATH
+BOOST=/usr/local
+
+# Inferring the paths
 CPP=g++
-CURRENT=/home/cczhong/Codes/GRASPx_src
 SUFSORT=$(CURRENT)/Libraries/libdivsufsort-2.0.1
-BOOST_INC=/usr/local/include
-BOOST_LIB=/usr/local/lib
+BOOST_INC=$(BOOST)/include
+BOOST_LIB=$(BOOST)/lib
 THREADPOOL=$(CURRENT)/Libraries/threadpool
 CC = $(CPP)
 CFLAGS = -Wall -Wno-deprecated -std=c++0x
 OPT = -O3
 INCPATH = -I$(SUFSORT)/include -I$(THREADPOOL) -I$(BOOST_INC)
 LIBPATH = -L$(SUFSORT)/lib -L$(BOOST_LIB)
-LIBS = -lboost_iostreams -lboost_filesystem -lboost_system -lboost_thread -lboost_program_options -ldivsufsort64 -lrt -lpthread -lm -lz
+LIBS = -Wl,-Bstatic $(SUFSORT)/lib/libdivsufsort64.a -Wl,-Bdynamic -lboost_iostreams -lboost_filesystem -lboost_system -lboost_thread -lboost_program_options -lrt -lpthread -lm -lz
 OBJS_ALL = main_build.o main_assemble.o main_map.o remap.o contig_refinement.o greedy_assembly.o assemble_extend.o read_alignment.o reachable_reads.o database_index.o sequence_build.o reduced_alphabet.o gsa.o sfa.o interval_array.o
 OBJS_BUILD = main_build.o database_index.o sequence_build.o reduced_alphabet.o gsa.o sfa.o interval_array.o
 OBJS_ASSEMBLE = main_assemble.o contig_refinement.o assemble_extend.o read_alignment.o reachable_reads.o database_index.o sequence_build.o reduced_alphabet.o gsa.o sfa.o interval_array.o
