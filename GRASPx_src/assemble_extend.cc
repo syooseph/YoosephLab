@@ -121,8 +121,8 @@ void AssembleExtend::MergeContigs(
     std::list<ContigType>& merged_contigs
 ) {
   // compute raw score cutoff
-  long int m = (long int) query.length();
-  long int n = (long int) seq_obj.GetDBSizeInMegaBase();
+  long int m = 1 + (long int) query.length();
+  long int n = 1 + (long int) seq_obj.GetDBSizeInMegaBase();
   n = n * 1000000;
   int score_cutoff = score_obj.ComputeRawScore(
       m, n, e_value_cutoff
