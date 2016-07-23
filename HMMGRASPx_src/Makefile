@@ -9,48 +9,40 @@ CFLAGS = -Wall -Wno-deprecated -std=c++0x
 OPT = -O3
 INCPATH = -I$(SUFSORT)/include -I$(THREADPOOL) -I$(BOOST_INC)
 LIBPATH = -L$(SUFSORT)/lib -L$(BOOST_LIB)
-LIBS = -lboost_iostreams -lboost_filesystem -lboost_system -lboost_thread -lboost_program_options -ldivsufsort64 -lrt -lpthread -lm -lz
-OBJS_ALL = main_build.o main_assemble.o main_map.o remap.o contig_refinement.o greedy_assembly.o assemble_extend.o read_alignment.o reachable_reads.o database_index.o sequence_build.o reduced_alphabet.o gsa.o sfa.o interval_array.o
+LIBS = -Wl,-Bstatic $(SUFSORT)/lib/libdivsufsort64.a -Wl,-Bdynamic -lboost_iostreams -lboost_filesystem -lboost_system -lboost_thread -lboost_program_options -lrt -lpthread -lm -lz
+LIBS_STATIC = -Wl,-Bstatic $(SUFSORT)/lib/libdivsufsort64.a /usr/local/lib/boost_1_55_0/stage/lib/libboost_iostreams.a /usr/local/lib/boost_1_55_0/stage/lib/libboost_filesystem.a /usr/local/lib/boost_1_55_0/stage/lib/libboost_system.a /usr/local/lib/boost_1_55_0/stage/lib/libboost_program_options.a /usr/local/lib/boost_1_55_0/stage/lib/libboost_thread.a -Wl,-Bdynamic  -lrt -lpthread -lm -lz
+OBJS_ALL = main_build.o main_map.o main_assemble_p.o remap.o seq_align_extend_p.o hmm_profile.o contig_refinement_p.o assemble_extend_p.o reachable_reads.o database_index.o reduced_alphabet.o sequence_build.o gsa.o sfa.o interval_array.o
+OBJS_XP = main_assemble_p.o seq_align_extend_p.o hmm_profile.o contig_refinement_p.o assemble_extend_p.o reachable_reads.o database_index.o reduced_alphabet.o sequence_build.o gsa.o sfa.o interval_array.o
 OBJS_BUILD = main_build.o database_index.o sequence_build.o reduced_alphabet.o gsa.o sfa.o interval_array.o
-OBJS_ASSEMBLE = main_assemble.o contig_refinement.o assemble_extend.o read_alignment.o reachable_reads.o database_index.o sequence_build.o reduced_alphabet.o gsa.o sfa.o interval_array.o
 OBJS_MAP = main_map.o remap.o assemble_extend.o reachable_reads.o database_index.o sequence_build.o reduced_alphabet.o gsa.o sfa.o interval_array.o
-OBJS_TEMP = main_all.o remap.o contig_refinement.o greedy_assembly.o assemble_extend.o read_alignment.o reachable_reads.o database_index.o sequence_build.o reduced_alphabet.o gsa.o sfa.o interval_array.o
-OBJS_UNITIGER = unitiger.o database_index.o sequence_build.o main_unitiger.o gsa.o sfa.o interval_array.o reduced_alphabet.o
+
+
 all:	$(OBJS_ALL)
-#	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_TEMP) -o Build $(LIBS)
-	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_BUILD) -o graspx-build $(LIBS)
-	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_ASSEMBLE) -o graspx-assemble $(LIBS)
-	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_MAP) -o graspx-map $(LIBS)
-unitiger: $(OBJS_UNITIGER)
-	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_UNITIGER) -o unitiger $(LIBS) 
-graspx-map: $(OBJS_MAP)
-	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_MAP) -o graspx-map $(LIBS)
-graspx-assemble: $(OBJS_ASSEMBLE)
-	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_ASSEMBLE) -o graspx-assemble $(LIBS)
-graspx-build: $(OBJS_BUILD)
-	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_BUILD) -o graspx-build $(LIBS)
-#main_all.o: main_all.cc
-#	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c main_all.cc
+	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_BUILD) -o graspxp-build $(LIBS_STATIC)
+	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_XP) -o graspxp-assemble $(LIBS_STATIC)
+	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_MAP) -o graspxp-map $(LIBS_STATIC)
+graspxp-assemble: $(OBJS_XP)
+	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_XP) -o graspxp-assemble $(LIBS_STATIC) 
+graspxp-map: $(OBJS_MAP)
+	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_MAP) -o graspxp-map $(LIBS_STATIC)
+graspxp-build: $(OBJS_BUILD)
+	$(CC) $(INCPATH) $(LIBPATH) $(CFLAGS) $(OPT) $(OBJS_BUILD) -o graspxp-build $(LIBS_STATIC)
+main_assemble_p.o: main_assemble_p.cc assemble_functor_p.h
+	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c main_assemble_p.cc
 main_map.o: main_map.cc
 	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c main_map.cc
-main_assemble.o: main_assemble.cc assemble_functor.h
-	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c main_assemble.cc
 main_build.o: main_build.cc
 	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c main_build.cc
-main_unitiger.o: main_unitiger.cc
-	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c main_unitiger.cc
-unitiger.o: unitiger.cc database_index.h sequence_build.h
-	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c unitiger.cc
+assemble_extend_p.o: assemble_extend_p.cc assemble_extend_p.h seq_align_extend_p.h hmm_profile.h reachable_reads.h database_index.h sequence_build.h
+	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c assemble_extend_p.cc
 remap.o: remap.cc remap.h assemble_extend.h gsa.h sequence_build.h
 	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c remap.cc
-contig_refinement.o: contig_refinement.cc contig_refinement.h assemble_extend.h sequence_build.h seq_align.h
-	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c contig_refinement.cc
-assemble_extend.o: assemble_extend.cc assemble_extend.h reachable_reads.h sequence_build.h scoring_function.h seq_align.h seq_align_extend.h
-	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c assemble_extend.cc
-greedy_assembly.o:  greedy_assembly.cc greedy_assembly.h reachable_reads.h sequence_build.h
-	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c greedy_assembly.cc
-read_alignment.o: read_alignment.cc read_alignment.h reachable_reads.h scoring_function.h seq_align.h sequence_build.h
-	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c read_alignment.cc
+seq_align_extend_p.o: seq_align_extend_p.cc seq_align_extend_p.h seq_align.h hmm_profile.h
+	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c seq_align_extend_p.cc
+contig_refinement_p.o: contig_refinement_p.cc contig_refinement_p.h sequence_build.h assemble_extend_p.h
+	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c contig_refinement_p.cc
+hmm_profile.o: hmm_profile.cc hmm_profile.h reachable_reads.h
+	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c hmm_profile.cc
 reachable_reads.o: reachable_reads.cc reachable_reads.h scoring_function.h
 	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c reachable_reads.cc
 database_index.o: database_index.cc database_index.h
@@ -65,9 +57,3 @@ sfa.o: sfa.cc sfa.h timer.h file.h
 	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c sfa.cc
 interval_array.o: interval_array.cc interval_array.h
 	$(CC) $(INCPATH) $(CFLAGS) $(OPT) -c interval_array.cc
-
-new:
-	-touch *.cc
-	-make
-clean:
-	-rm $(OBJS_ALL)
