@@ -1,3 +1,8 @@
+Build libdivsufsort with the following commands:
+  
+  cmake -DBUILD_SHARED_LIBS="OFF" -DBUILD_DIVSUFSORT64="ON"
+  make
+
 To install, please open the "Makefile" file and modify the second line:
 "CURRENT=/home/cczhong/Codes/GRASPx_src" to "CURRENT=[Your current directory]".
 
