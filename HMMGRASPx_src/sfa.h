@@ -31,7 +31,7 @@
 
 
 typedef sauchar_t SfaChar;
-typedef sauchar_t LcpType;
+typedef uint16_t LcpType;
 typedef saidx64_t IdxType; 
 
 //#if BIGINT == 0
