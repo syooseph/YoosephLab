@@ -20,7 +20,7 @@
 #include <boost/unordered_map.hpp>
 #include "file.h"
 
-typedef unsigned char ValueType;
+typedef uint16_t ValueType;
 typedef boost::unordered_map<size_t, size_t> BigValueMap;
 
 const ValueType MAX_INTERVAL_VALUE = 255;
