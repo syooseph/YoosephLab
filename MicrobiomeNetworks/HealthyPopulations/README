@@ -4,6 +4,7 @@ Scripts and data for "Bacterial associations in the healthy human gut microbiome
 	1) Download the entire HealthyPopulations folder
 	2) Make sure to unzip all files in all subfolders that are zipped. If you do not do this some scripts will break.
 	3) All input and ouput files can be found in the subfolders. If you wish you can go straight to them.
+	4) For a complete list of bacterial genomes used in this study look at ./Dataframes/Master_Rename.csv
 
 
 Python Notebook Scripts:
