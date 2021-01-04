@@ -1,0 +1,28 @@
+Scripts and data for "Bacterial associations in the healthy human gut microbiome across populations":
+
+~ Note: 
+	1) Download the entire HealthyPopulations folder
+	2) Make sure to unzip all files in all subfolders that are zipped. If you do not do this some scripts will break.
+	3) All input and ouput files can be found in the subfolders. If you wish you can go straight to them.
+
+
+Python Notebook Scripts:
+
+	Cohort Sample Information Notebook): Contains sample read count information and subject sex and age metadata.
+
+	Part 1): This notebook produces the species/genus and prevalence filtered sample-taxa dataframes.
+
+	Part 2): In this notebook you will see the prevalence of bacteria, the highly prevalent (>90% sample prevalence) species total sample relative abundances,
+		PCA and PCoA of sample relative abundance profiles.
+
+	Part 3.1 and 3.2): In notebook part 3.1 you will find the scripts for producing networks from partial correlations matrices, measuring network properties, generating random networks,
+	measuring the edges that are shared across networks, etc. In notebook 3.2 we take the random networks we built in 3.1 and produce pvalues for the properties of our networks.
+
+	Part 4): The part 4 notebook shows how we produced species functional profiles.
+
+	Part 5): This notebook holds the scripts for "Hub" and "Bottleneck" analysis as well as part of the module functional cluster analysis, and the scatter/lineregress plots of the species partner 
+	genome functional distance vs association weight. 
+
+	Part 6): This is notebook contains how we generated dataframes to be filled from featureCount output along with results from CheckM analysis.
+
+	Part 7): This notebook contains the PCA of TIGRFAMS contained within each cohort's sample reads.
