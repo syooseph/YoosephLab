@@ -27,3 +27,10 @@ Python Notebook Scripts:
 	Part 6): This is notebook contains how we generated dataframes to be filled from featureCount output along with results from CheckM analysis.
 
 	Part 7): This notebook contains the PCA of TIGRFAMS contained within each cohort's sample reads.
+	
+	SH Analysis): This notebook contains:
+		1) CLR transformation of relative abundances
+		2) PCA implementation
+		3) Random Forest Classifier analysis 
+		4) Network analysis (average degree of conserved nodes, conserved sub-graph)
+		5) TIGRFAM differential abundance analysis
