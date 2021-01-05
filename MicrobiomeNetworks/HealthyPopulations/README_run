@@ -1,0 +1,3 @@
+# To run contents of script using Rscript
+
+/usr/bin/Rscript ./script

@@ -1,0 +1,18 @@
+# To run the R code, you need to have all of the necessary libraries in your R path
+
+source("./SingleNetwork.R")
+
+#Use the SingleNetwork function in SingleNetwork.R to generate the network
+
+american=SingleNetwork(F="american_90clr.csv")
+save(american,file="american")
+
+european=SingleNetwork(F="trim_european_90clr.csv")
+save(european,file="european")
+
+
+indian=SingleNetwork(F="trim_indian_90clr.csv")
+save(indian,file="indian")
+
+japanese=SingleNetwork(F="trim_japanese_90clr.csv")
+save(japanese,file="japanese")
