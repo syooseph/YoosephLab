@@ -1,0 +1,281 @@
+UserID	SampleID	StudyDay	DietDay	Gender	Age	Weight	BMI	Supplements	FecalStatus	FecalTime	WeightChange	ActivityFactor	Medications	DietarySupplementation	ftp
+0	MCTs01	MCT.f.0001	1	0.0	F	25.9	74.6	25.0	EVOO	1.0	12:00 PM	-0.4	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321622/MCT.f.0001.S463.R1.001.fastq.gz
+1	MCTs01	MCT.f.0002	2	1.0	F	25.9	74.6	25.0	EVOO	1.0	9:00 AM	-0.4	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321623/MCT.f.0002.S6.R1.001.fastq.gz
+2	MCTs01	MCT.f.0003	3	2.0	F	25.9	74.6	25.0	EVOO	1.0	10:30 AM	-0.4	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321624/MCT.f.0003.S56.R1.001.fastq.gz
+3	MCTs01	MCT.f.0004	4	3.0	F	25.9	74.6	25.0	EVOO	1.0	8:55 AM	-0.4	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321625/MCT.f.0004.S389.R1.001.fastq.gz
+4	MCTs01	MCT.f.0005	5	4.0	F	25.9	74.6	25.0	EVOO	1.0	1:40 PM	-0.4	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321626/MCT.f.0005.S132.R1.001.fastq.gz
+5	MCTs01	MCT.f.0006	6	5.0	F	25.9	74.6	25.0	EVOO	1.0	8:00 AM	-0.4	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321628/MCT.f.0006.S363.R1.001.fastq.gz
+6	MCTs01	MCT.f.0007	7	6.0	F	25.9	74.6	25.0	EVOO	1.0	9:30 AM	-0.4	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321629/MCT.f.0007.S286.R1.001.fastq.gz
+7	MCTs01	MCT.f.0008	8	7.0	F	25.9	74.6	25.0	EVOO	1.0	9:20 AM	-0.4	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321630/MCT.f.0008.S366.R1.001.fastq.gz
+8	MCTs01	MCT.f.0009	9	8.0	F	25.9	74.6	25.0	EVOO	1.0	8:40 AM	-0.4	1.375	Nexplanon (bc implant)	 Multivitamin;VitD;VitC;Zinc	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321631/MCT.f.0009.S226.R1.001.fastq.gz
+9	MCTs02	MCT.f.0018	1	0.0	F	32.7	89.6	33.8	nan	1.0	2:30 PM	nan	1.55	None	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321641/MCT.f.0018.S169.R1.001.fastq.gz
+10	MCTs02	MCT.f.0019	2	1.0	F	32.7	89.6	33.8	nan	1.0	8:30 PM	nan	1.55	None	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321643/MCT.f.0019.S413.R1.001.fastq.gz
+11	MCTs02	MCT.f.0020	3	2.0	F	32.7	89.6	33.8	nan	1.0	1:30 PM	nan	1.55	None	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321644/MCT.f.0020.S164.R1.001.fastq.gz
+12	MCTs03	MCT.f.0035	1	0.0	M	25.4	91.2	26.6	MCT	1.0	5:21 PM	2.9	1.55	Allegra;Flonase;Asthma inhaler	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321645/MCT.f.0035.S110.R1.001.fastq.gz
+13	MCTs03	MCT.f.0036	2	1.0	M	25.4	91.2	26.6	MCT	1.0	2:20 PM	2.9	1.55	Allegra;Flonase;Asthma inhaler	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321646/MCT.f.0036.S227.R1.001.fastq.gz
+14	MCTs03	MCT.f.0037	3	2.0	M	25.4	91.2	26.6	MCT	1.0	4:21 PM	2.9	1.55	Allegra;Flonase;Asthma inhaler	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321647/MCT.f.0037.S379.R1.001.fastq.gz
+15	MCTs03	MCT.f.0038	4	3.0	M	25.4	91.2	26.6	MCT	1.0	No Time	2.9	1.55	Allegra;Flonase;Asthma inhaler	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321648/MCT.f.0038.S420.R1.001.fastq.gz
+16	MCTs03	MCT.f.0039	5	4.0	M	25.4	91.2	26.6	MCT	1.0	11:25 PM	2.9	1.55	Allegra;Flonase;Asthma inhaler	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321649/MCT.f.0039.S359.R1.001.fastq.gz
+17	MCTs03	MCT.f.0040	6	5.0	M	25.4	91.2	26.6	MCT	1.0	11:30 PM	2.9	1.55	Allegra;Flonase;Asthma inhaler	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321650/MCT.f.0040.S446.R1.001.fastq.gz
+18	MCTs03	MCT.f.0041	7	6.0	M	25.4	91.2	26.6	MCT	1.0	2:35 PM	2.9	1.55	Allegra;Flonase;Asthma inhaler	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321651/MCT.f.0041.S203.R1.001.fastq.gz
+19	MCTs03	MCT.f.0042	8	7.0	M	25.4	91.2	26.6	MCT	1.0	3:00 PM	2.9	1.55	Allegra;Flonase;Asthma inhaler	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321652/MCT.f.0042.S69.R1.001.fastq.gz
+20	MCTs03	MCT.f.0043	9	8.0	M	25.4	91.2	26.6	MCT	1.0	5:00 PM	2.9	1.55	Allegra;Flonase;Asthma inhaler	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321653/MCT.f.0043.S276.R1.001.fastq.gz
+21	MCTs04	MCT.f.0052	1	0.0	F	24.0	50.6	18.9	MCT	1.0	11:30 AM	0.6	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321661/MCT.f.0052.S194.R1.001.fastq.gz
+22	MCTs04	MCT.f.0053	2	1.0	F	24.0	50.6	18.9	MCT	1.0	9:15 AM	0.6	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321662/MCT.f.0053.S154.R1.001.fastq.gz
+23	MCTs04	MCT.f.0054	3	2.0	F	24.0	50.6	18.9	MCT	1.0	8:30 AM	0.6	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321664/MCT.f.0054.S139.R1.001.fastq.gz
+24	MCTs04	MCT.f.0055	4	3.0	F	24.0	50.6	18.9	MCT	1.0	8:00 AM	0.6	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321666/MCT.f.0055.S432.R1.001.fastq.gz
+25	MCTs04	MCT.f.0056	5	4.0	F	24.0	50.6	18.9	MCT	1.0	11:30 AM	0.6	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321667/MCT.f.0056.S133.R1.001.fastq.gz
+26	MCTs04	MCT.f.0057	6	5.0	F	24.0	50.6	18.9	MCT	1.0	9:15 AM	0.6	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321669/MCT.f.0057.S371.R1.001.fastq.gz
+27	MCTs04	MCT.f.0058	7	6.0	F	24.0	50.6	18.9	MCT	1.0	10:30 AM	0.6	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321670/MCT.f.0058.S265.R1.001.fastq.gz
+28	MCTs04	MCT.f.0059	8	7.0	F	24.0	50.6	18.9	MCT	1.0	11:00 AM	0.6	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321671/MCT.f.0059.S451.R1.001.fastq.gz
+29	MCTs04	MCT.f.0060	9	8.0	F	24.0	50.6	18.9	MCT	1.0	9:00 AM	0.6	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321672/MCT.f.0060.S269.R1.001.fastq.gz
+30	MCTs05	MCT.f.0069	1	0.0	F	23.1	57.2	19.9	EVOO	1.0	7:45 PM	-0.6	1.375	Hormonal IUD;ibuprofen	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321680/MCT.f.0069.S325.R1.001.fastq.gz
+31	MCTs05	MCT.f.0070	2	1.0	F	23.1	57.2	19.9	EVOO	1.0	8:15 AM	-0.6	1.375	Hormonal IUD;ibuprofen	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321681/MCT.f.0070.S284.R1.001.fastq.gz
+32	MCTs05	MCT.f.0071	3	2.0	F	23.1	57.2	19.9	EVOO	1.0	2:20 PM	-0.6	1.375	Hormonal IUD;ibuprofen	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321682/MCT.f.0071.S63.R1.001.fastq.gz
+33	MCTs05	MCT.f.0072	4	3.0	F	23.1	57.2	19.9	EVOO	1.0	1:30 PM	-0.6	1.375	Hormonal IUD;ibuprofen	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321683/MCT.f.0072.S400.R1.001.fastq.gz
+34	MCTs05	MCT.f.0074	6	5.0	F	23.1	57.2	19.9	EVOO	1.0	10:30 AM	-0.6	1.375	Hormonal IUD;ibuprofen	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321684/MCT.f.0074.S262.R1.001.fastq.gz
+35	MCTs05	MCT.f.0075	7	6.0	F	23.1	57.2	19.9	EVOO	1.0	8:15 AM	-0.6	1.375	Hormonal IUD;ibuprofen	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321685/MCT.f.0075.S224.R1.001.fastq.gz
+36	MCTs05	MCT.f.0076	8	7.0	F	23.1	57.2	19.9	EVOO	1.0	2:30 PM	-0.6	1.375	Hormonal IUD;ibuprofen	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321686/MCT.f.0076.S186.R1.001.fastq.gz
+37	MCTs05	MCT.f.0077	9	8.0	F	23.1	57.2	19.9	EVOO	1.0	8:10 AM	-0.6	1.375	Hormonal IUD;ibuprofen	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321687/MCT.f.0077.S45.R1.001.fastq.gz
+38	MCTs06	MCT.f.0417	1	0.0	M	23.7	78.0	22.7	MCT	1.0	4:34 PM	-1.3	1.55	None	Whey protein;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322023/MCT.f.0417.S250.R1.001.fastq.gz
+39	MCTs06	MCT.f.0089	4	3.0	M	23.7	78.0	22.7	MCT	1.0	1:00 PM	-1.3	1.55	None	Whey protein;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321695/MCT.f.0089.S399.R1.001.fastq.gz
+40	MCTs06	MCT.f.0091	6	5.0	M	23.7	78.0	22.7	MCT	1.0	No Time	-1.3	1.55	None	Whey protein;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321696/MCT.f.0091.S494.R1.001.fastq.gz
+41	MCTs06	MCT.f.0094	9	8.0	M	23.7	78.0	22.7	MCT	1.0	2:05 AM	-1.3	1.55	None	Whey protein;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321697/MCT.f.0094.S519.R1.001.fastq.gz
+42	MCTs07	MCT.f.0103	1	0.0	M	28.5	90.2	27.4	MCT	1.0	9:40 AM	-3.2	1.55	None	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321704/MCT.f.0103.S10.R1.001.fastq.gz
+43	MCTs07	MCT.f.0104	2	1.0	M	28.5	90.2	27.4	MCT	1.0	9:10 AM	-3.2	1.55	None	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321705/MCT.f.0104.S176.R1.001.fastq.gz
+44	MCTs07	MCT.f.0106	4	3.0	M	28.5	90.2	27.4	MCT	1.0	10:00 AM	-3.2	1.55	None	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321706/MCT.f.0106.S536.R1.001.fastq.gz
+45	MCTs07	MCT.f.0107	5	4.0	M	28.5	90.2	27.4	MCT	1.0	10:45 PM	-3.2	1.55	None	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321707/MCT.f.0107.S395.R1.001.fastq.gz
+46	MCTs07	MCT.f.0108	6	5.0	M	28.5	90.2	27.4	MCT	1.0	9:30 AM	-3.2	1.55	None	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321708/MCT.f.0108.S291.R1.001.fastq.gz
+47	MCTs07	MCT.f.0109	7	6.0	M	28.5	90.2	27.4	MCT	1.0	7:45 AM	-3.2	1.55	None	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321709/MCT.f.0109.S40.R1.001.fastq.gz
+48	MCTs07	MCT.f.0110	8	7.0	M	28.5	90.2	27.4	MCT	1.0	11:15 PM	-3.2	1.55	None	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321710/MCT.f.0110.S113.R1.001.fastq.gz
+49	MCTs07	MCT.f.0111	9	8.0	M	28.5	90.2	27.4	MCT	1.0	No Time	-3.2	1.55	None	VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321712/MCT.f.0111.S243.R1.001.fastq.gz
+50	MCTs08	MCT.f.0120	1	0.0	M	32.3	59.4	18.8	MCT	1.0	7:25 AM	-0.6	1.9	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321721/MCT.f.0120.S336.R1.001.fastq.gz
+51	MCTs08	MCT.f.0121	2	1.0	M	32.3	59.4	18.8	MCT	1.0	6:40 AM	-0.6	1.9	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321722/MCT.f.0121.S219.R1.001.fastq.gz
+52	MCTs08	MCT.f.0122	3	2.0	M	32.3	59.4	18.8	MCT	1.0	7:30 AM	-0.6	1.9	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321723/MCT.f.0122.S60.R1.001.fastq.gz
+53	MCTs08	MCT.f.0123	4	3.0	M	32.3	59.4	18.8	MCT	1.0	8:00 AM	-0.6	1.9	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321724/MCT.f.0123.S484.R1.001.fastq.gz
+54	MCTs08	MCT.f.0124	5	4.0	M	32.3	59.4	18.8	MCT	1.0	11:05 AM	-0.6	1.9	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321725/MCT.f.0124.S295.R1.001.fastq.gz
+55	MCTs08	MCT.f.0125	6	5.0	M	32.3	59.4	18.8	MCT	1.0	6:45 AM	-0.6	1.9	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321726/MCT.f.0125.S143.R1.001.fastq.gz
+56	MCTs08	MCT.f.0126	7	6.0	M	32.3	59.4	18.8	MCT	1.0	9:10 AM	-0.6	1.9	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321728/MCT.f.0126.S166.R1.001.fastq.gz
+57	MCTs08	MCT.f.0127	8	7.0	M	32.3	59.4	18.8	MCT	1.0	7:45 AM	-0.6	1.9	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321730/MCT.f.0127.S129.R1.001.fastq.gz
+58	MCTs08	MCT.f.0128	9	8.0	M	32.3	59.4	18.8	MCT	1.0	7:45 AM	-0.6	1.9	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321732/MCT.f.0128.S437.R1.001.fastq.gz
+59	MCTs09	MCT.f.0137	1	0.0	F	21.7	66.9	23.8	MCT	1.0	10:00 AM	0.4	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321744/MCT.f.0137.S380.R1.001.fastq.gz
+60	MCTs09	MCT.f.0138	2	1.0	F	21.7	66.9	23.8	MCT	1.0	8:15 AM	0.4	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321745/MCT.f.0138.S504.R1.001.fastq.gz
+61	MCTs09	MCT.f.0139	3	2.0	F	21.7	66.9	23.8	MCT	1.0	10:30 AM	0.4	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321746/MCT.f.0139.S341.R1.001.fastq.gz
+62	MCTs09	MCT.f.0141	5	4.0	F	21.7	66.9	23.8	MCT	1.0	10:05 AM	0.4	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321747/MCT.f.0141.S447.R1.001.fastq.gz
+63	MCTs09	MCT.f.0142	6	5.0	F	21.7	66.9	23.8	MCT	1.0	9:00 AM	0.4	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321748/MCT.f.0142.S452.R1.001.fastq.gz
+64	MCTs09	MCT.f.0143	7	6.0	F	21.7	66.9	23.8	MCT	1.0	9:00 AM	0.4	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321749/MCT.f.0143.S474.R1.001.fastq.gz
+65	MCTs09	MCT.f.0144	8	7.0	F	21.7	66.9	23.8	MCT	1.0	8:30 AM	0.4	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321750/MCT.f.0144.S20.R1.001.fastq.gz
+66	MCTs09	MCT.f.0145	9	8.0	F	21.7	66.9	23.8	MCT	1.0	10:00 AM	0.4	1.55	Estrogen/progestrin bc pill	Fiber powder;calcium;Mg;fish oil;probiotic;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321751/MCT.f.0145.S43.R1.001.fastq.gz
+67	MCTs10	MCT.f.0154	1	0.0	F	29.1	65.6	23.0	MCT	1.0	6:30 AM	1.2	1.55	Estrogen/progestrin bc pill	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321762/MCT.f.0154.S465.R1.001.fastq.gz
+68	MCTs10	MCT.f.0155	2	1.0	F	29.1	65.6	23.0	MCT	1.0	6:17 AM	1.2	1.55	Estrogen/progestrin bc pill	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321763/MCT.f.0155.S490.R1.001.fastq.gz
+69	MCTs10	MCT.f.0156	3	2.0	F	29.1	65.6	23.0	MCT	1.0	6:40 AM	1.2	1.55	Estrogen/progestrin bc pill	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321764/MCT.f.0156.S165.R1.001.fastq.gz
+70	MCTs10	MCT.f.0157	4	3.0	F	29.1	65.6	23.0	MCT	1.0	6:08 AM	1.2	1.55	Estrogen/progestrin bc pill	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321766/MCT.f.0157.S180.R1.001.fastq.gz
+71	MCTs10	MCT.f.0158	5	4.0	F	29.1	65.6	23.0	MCT	1.0	7:30 AM	1.2	1.55	Estrogen/progestrin bc pill	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321768/MCT.f.0158.S30.R1.001.fastq.gz
+72	MCTs10	MCT.f.0159	6	5.0	F	29.1	65.6	23.0	MCT	1.0	9:50 AM	1.2	1.55	Estrogen/progestrin bc pill	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321769/MCT.f.0159.S523.R1.001.fastq.gz
+73	MCTs10	MCT.f.0160	7	6.0	F	29.1	65.6	23.0	MCT	1.0	5:20 AM	1.2	1.55	Estrogen/progestrin bc pill	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321770/MCT.f.0160.S231.R1.001.fastq.gz
+74	MCTs10	MCT.f.0161	8	7.0	F	29.1	65.6	23.0	MCT	1.0	7:20 AM	1.2	1.55	Estrogen/progestrin bc pill	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321771/MCT.f.0161.S260.R1.001.fastq.gz
+75	MCTs10	MCT.f.0162	9	8.0	F	29.1	65.6	23.0	MCT	1.0	7:06 AM	1.2	1.55	Estrogen/progestrin bc pill	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321772/MCT.f.0162.S301.R1.001.fastq.gz
+76	MCTs11	MCT.f.0171	1	0.0	M	27.9	69.2	22.1	EVOO	1.0	11:30 AM	-2.3	1.375	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321782/MCT.f.0171.S191.R1.001.fastq.gz
+77	MCTs11	MCT.f.0172	2	1.0	M	27.9	69.2	22.1	EVOO	1.0	3:28 PM	-2.3	1.375	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321784/MCT.f.0172.S148.R1.001.fastq.gz
+78	MCTs11	MCT.f.0173	3	2.0	M	27.9	69.2	22.1	EVOO	1.0	1:40 PM	-2.3	1.375	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321786/MCT.f.0173.S391.R1.001.fastq.gz
+79	MCTs11	MCT.f.0174	4	3.0	M	27.9	69.2	22.1	EVOO	1.0	1:40 PM	-2.3	1.375	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321787/MCT.f.0174.S88.R1.001.fastq.gz
+80	MCTs11	MCT.f.0176	6	5.0	M	27.9	69.2	22.1	EVOO	1.0	12:40 PM	-2.3	1.375	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321788/MCT.f.0176.S274.R1.001.fastq.gz
+81	MCTs11	MCT.f.0177	7	6.0	M	27.9	69.2	22.1	EVOO	1.0	10:40 AM	-2.3	1.375	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321789/MCT.f.0177.S511.R1.001.fastq.gz
+82	MCTs11	MCT.f.0178	8	7.0	M	27.9	69.2	22.1	EVOO	1.0	5:30 PM	-2.3	1.375	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321791/MCT.f.0178.S310.R1.001.fastq.gz
+83	MCTs11	MCT.f.0179	9	8.0	M	27.9	69.2	22.1	EVOO	1.0	11:35 AM	-2.3	1.375	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321792/MCT.f.0179.S103.R1.001.fastq.gz
+84	MCTs12	MCT.f.0188	1	0.0	F	26.5	62.5	21.1	MCT	1.0	1:22 PM	-1.4	1.375	Estrogen/progestrin bc pill	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321802/MCT.f.0188.S321.R1.001.fastq.gz
+85	MCTs12	MCT.f.0189	2	1.0	F	26.5	62.5	21.1	MCT	1.0	5:19 PM	-1.4	1.375	Estrogen/progestrin bc pill	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321803/MCT.f.0189.S404.R1.001.fastq.gz
+86	MCTs12	MCT.f.0190	3	2.0	F	26.5	62.5	21.1	MCT	1.0	11:17 AM	-1.4	1.375	Estrogen/progestrin bc pill	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321804/MCT.f.0190.S221.R1.001.fastq.gz
+87	MCTs12	MCT.f.0191	4	3.0	F	26.5	62.5	21.1	MCT	1.0	8:45 AM	-1.4	1.375	Estrogen/progestrin bc pill	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321805/MCT.f.0191.S374.R1.001.fastq.gz
+88	MCTs12	MCT.f.0192	5	4.0	F	26.5	62.5	21.1	MCT	1.0	1:30 PM	-1.4	1.375	Estrogen/progestrin bc pill	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321806/MCT.f.0192.S355.R1.001.fastq.gz
+89	MCTs12	MCT.f.0193	6	5.0	F	26.5	62.5	21.1	MCT	1.0	12:10 PM	-1.4	1.375	Estrogen/progestrin bc pill	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321807/MCT.f.0193.S510.R1.001.fastq.gz
+90	MCTs12	MCT.f.0194	7	6.0	F	26.5	62.5	21.1	MCT	1.0	9:50 AM	-1.4	1.375	Estrogen/progestrin bc pill	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321808/MCT.f.0194.S172.R1.001.fastq.gz
+91	MCTs12	MCT.f.0195	8	7.0	F	26.5	62.5	21.1	MCT	1.0	12:10 PM	-1.4	1.375	Estrogen/progestrin bc pill	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321809/MCT.f.0195.S406.R1.001.fastq.gz
+92	MCTs12	MCT.f.0196	9	8.0	F	26.5	62.5	21.1	MCT	1.0	12:00 PM	-1.4	1.375	Estrogen/progestrin bc pill	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321810/MCT.f.0196.S23.R1.001.fastq.gz
+93	MCTs13	MCT.f.0206	2	1.0	F	40.6	59.1	21.7	EVOO	1.0	9:10 PM	0.1	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321820/MCT.f.0206.S449.R1.001.fastq.gz
+94	MCTs13	MCT.f.0208	4	3.0	F	40.6	59.1	21.7	EVOO	1.0	3:15 PM	0.1	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321821/MCT.f.0208.S492.R1.001.fastq.gz
+95	MCTs13	MCT.f.0209	5	4.0	F	40.6	59.1	21.7	EVOO	1.0	11:15 AM	0.1	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321822/MCT.f.0209.S200.R1.001.fastq.gz
+96	MCTs13	MCT.f.0211	7	6.0	F	40.6	59.1	21.7	EVOO	1.0	5:45 PM	0.1	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321823/MCT.f.0211.S354.R1.001.fastq.gz
+97	MCTs13	MCT.f.0213	9	8.0	F	40.6	59.1	21.7	EVOO	1.0	8:30 AM	0.1	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321824/MCT.f.0213.S109.R1.001.fastq.gz
+98	MCTs14	MCT.f.0222	1	0.0	M	40.7	88.0	25.9	EVOO	1.0	8:00 AM	0.0	1.55	None	Tumeric;B-complex;fish oil; probiotic	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321834/MCT.f.0222.S258.R1.001.fastq.gz
+99	MCTs14	MCT.f.0223	2	1.0	M	40.7	88.0	25.9	EVOO	1.0	7:30 AM	0.0	1.55	None	Tumeric;B-complex;fish oil; probiotic	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321835/MCT.f.0223.S285.R1.001.fastq.gz
+100	MCTs14	MCT.f.0224	3	2.0	M	40.7	88.0	25.9	EVOO	1.0	7:45 AM	0.0	1.55	None	Tumeric;B-complex;fish oil; probiotic	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321836/MCT.f.0224.S528.R1.001.fastq.gz
+101	MCTs14	MCT.f.0225	4	3.0	M	40.7	88.0	25.9	EVOO	1.0	No Time	0.0	1.55	None	Tumeric;B-complex;fish oil; probiotic	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321837/MCT.f.0225.S268.R1.001.fastq.gz
+102	MCTs14	MCT.f.0226	5	4.0	M	40.7	88.0	25.9	EVOO	1.0	9:53 AM	0.0	1.55	None	Tumeric;B-complex;fish oil; probiotic	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321838/MCT.f.0226.S467.R1.001.fastq.gz
+103	MCTs14	MCT.f.0227	6	5.0	M	40.7	88.0	25.9	EVOO	1.0	12:00 PM	0.0	1.55	None	Tumeric;B-complex;fish oil; probiotic	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321839/MCT.f.0227.S337.R1.001.fastq.gz
+104	MCTs14	MCT.f.0228	7	6.0	M	40.7	88.0	25.9	EVOO	1.0	7:20 AM	0.0	1.55	None	Tumeric;B-complex;fish oil; probiotic	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321840/MCT.f.0228.S104.R1.001.fastq.gz
+105	MCTs14	MCT.f.0229	8	7.0	M	40.7	88.0	25.9	EVOO	1.0	7:30 AM	0.0	1.55	None	Tumeric;B-complex;fish oil; probiotic	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321841/MCT.f.0229.S80.R1.001.fastq.gz
+106	MCTs14	MCT.f.0230	9	8.0	M	40.7	88.0	25.9	EVOO	1.0	7:30 AM	0.0	1.55	None	Tumeric;B-complex;fish oil; probiotic	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321842/MCT.f.0230.S256.R1.001.fastq.gz
+107	MCTs15	MCT.f.0240	2	1.0	F	21.3	49.7	18.7	MCT	1.0	9:00 AM	-1.2	1.375	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321853/MCT.f.0240.S257.R1.001.fastq.gz
+108	MCTs15	MCT.f.0241	3	2.0	F	21.3	49.7	18.7	MCT	1.0	9:00 AM	-1.2	1.375	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321854/MCT.f.0241.S223.R1.001.fastq.gz
+109	MCTs15	MCT.f.0242	4	3.0	F	21.3	49.7	18.7	MCT	1.0	8:20 AM	-1.2	1.375	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321855/MCT.f.0242.S134.R1.001.fastq.gz
+110	MCTs15	MCT.f.0243	5	4.0	F	21.3	49.7	18.7	MCT	1.0	9:30 AM	-1.2	1.375	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321857/MCT.f.0243.S311.R1.001.fastq.gz
+111	MCTs15	MCT.f.0244	6	5.0	F	21.3	49.7	18.7	MCT	1.0	9:30 AM	-1.2	1.375	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321858/MCT.f.0244.S155.R1.001.fastq.gz
+112	MCTs15	MCT.f.0245	7	6.0	F	21.3	49.7	18.7	MCT	1.0	7:00 AM	-1.2	1.375	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321860/MCT.f.0245.S48.R1.001.fastq.gz
+113	MCTs15	MCT.f.0247	9	8.0	F	21.3	49.7	18.7	MCT	1.0	8:30 AM	-1.2	1.375	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321861/MCT.f.0247.S331.R1.001.fastq.gz
+114	MCTs16	MCT.f.0256	1	0.0	F	19.7	49.7	17.0	EVOO	1.0	7:50 AM	-0.1	1.725	None	Multivitamin;VitC;Fe;B12	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321869/MCT.f.0256.S525.R1.001.fastq.gz
+115	MCTs16	MCT.f.0258	3	2.0	F	19.7	49.7	17.0	EVOO	1.0	6:50 AM	-0.1	1.725	None	Multivitamin;VitC;Fe;B12	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321870/MCT.f.0258.S75.R1.001.fastq.gz
+116	MCTs16	MCT.f.0259	4	3.0	F	19.7	49.7	17.0	EVOO	1.0	8:30 AM	-0.1	1.725	None	Multivitamin;VitC;Fe;B12	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321871/MCT.f.0259.S318.R1.001.fastq.gz
+117	MCTs16	MCT.f.0260	5	4.0	F	19.7	49.7	17.0	EVOO	1.0	7:20 AM	-0.1	1.725	None	Multivitamin;VitC;Fe;B12	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321872/MCT.f.0260.S73.R1.001.fastq.gz
+118	MCTs16	MCT.f.0261	6	5.0	F	19.7	49.7	17.0	EVOO	1.0	9:20 AM	-0.1	1.725	None	Multivitamin;VitC;Fe;B12	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321873/MCT.f.0261.S327.R1.001.fastq.gz
+119	MCTs16	MCT.f.0263	8	7.0	F	19.7	49.7	17.0	EVOO	1.0	12:15 PM	-0.1	1.725	None	Multivitamin;VitC;Fe;B12	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321874/MCT.f.0263.S44.R1.001.fastq.gz
+120	MCTs16	MCT.f.0264	9	8.0	F	19.7	49.7	17.0	EVOO	1.0	6:20 AM	-0.1	1.725	None	Multivitamin;VitC;Fe;B12	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321875/MCT.f.0264.S346.R1.001.fastq.gz
+121	MCTs17	MCT.f.0273	1	0.0	F	20.1	67.7	21.4	nan	1.0	1:00 PM	nan	1.55	Estrogen/progestrin bc pill;mirilax	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321885/MCT.f.0273.S9.R1.001.fastq.gz
+122	MCTs17	MCT.f.0274	2	1.0	F	20.1	67.7	21.4	nan	1.0	12:00 PM	nan	1.55	Estrogen/progestrin bc pill;mirilax	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321886/MCT.f.0274.S182.R1.001.fastq.gz
+123	MCTs17	MCT.f.0275	3	2.0	F	20.1	67.7	21.4	nan	1.0	9:20 AM	nan	1.55	Estrogen/progestrin bc pill;mirilax	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321888/MCT.f.0275.S368.R1.001.fastq.gz
+124	MCTs17	MCT.f.0277	5	4.0	F	20.1	67.7	21.4	nan	1.0	7:45 AM	nan	1.55	Estrogen/progestrin bc pill;mirilax	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321889/MCT.f.0277.S469.R1.001.fastq.gz
+125	MCTs18	MCT.f.0290	1	0.0	M	22.6	67.7	22.1	MCT	1.0	7:00 AM	0.4	1.725	ibuprofen	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321890/MCT.f.0290.S440.R1.001.fastq.gz
+126	MCTs18	MCT.f.0291	2	1.0	M	22.6	67.7	22.1	MCT	1.0	9:00 AM	0.4	1.725	ibuprofen	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321891/MCT.f.0291.S188.R1.001.fastq.gz
+127	MCTs18	MCT.f.0292	3	2.0	M	22.6	67.7	22.1	MCT	1.0	9:40 AM	0.4	1.725	ibuprofen	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321893/MCT.f.0292.S17.R1.001.fastq.gz
+128	MCTs18	MCT.f.0293	4	3.0	M	22.6	67.7	22.1	MCT	1.0	8:30 AM	0.4	1.725	ibuprofen	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321894/MCT.f.0293.S137.R1.001.fastq.gz
+129	MCTs18	MCT.f.0294	5	4.0	M	22.6	67.7	22.1	MCT	1.0	9:30 AM	0.4	1.725	ibuprofen	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321896/MCT.f.0294.S360.R1.001.fastq.gz
+130	MCTs18	MCT.f.0295	6	5.0	M	22.6	67.7	22.1	MCT	1.0	9:15 AM	0.4	1.725	ibuprofen	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321897/MCT.f.0295.S381.R1.001.fastq.gz
+131	MCTs18	MCT.f.0296	7	6.0	M	22.6	67.7	22.1	MCT	1.0	9:15 AM	0.4	1.725	ibuprofen	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321898/MCT.f.0296.S177.R1.001.fastq.gz
+132	MCTs18	MCT.f.0297	8	7.0	M	22.6	67.7	22.1	MCT	1.0	7:30 AM	0.4	1.725	ibuprofen	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321900/MCT.f.0297.S27.R1.001.fastq.gz
+133	MCTs18	MCT.f.0298	9	8.0	M	22.6	67.7	22.1	MCT	1.0	9:45 AM	0.4	1.725	ibuprofen	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321901/MCT.f.0298.S47.R1.001.fastq.gz
+134	MCTs19	MCT.f.0307	1	0.0	F	20.7	65.3	22.9	MCT	1.0	5:45 PM	0.7	1.325	Hormonal IUD	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321910/MCT.f.0307.S225.R1.001.fastq.gz
+135	MCTs19	MCT.f.0308	2	1.0	F	20.7	65.3	22.9	MCT	1.0	7:35 PM	0.7	1.325	Hormonal IUD	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321911/MCT.f.0308.S509.R1.001.fastq.gz
+136	MCTs19	MCT.f.0310	4	3.0	F	20.7	65.3	22.9	MCT	1.0	5:30 PM	0.7	1.325	Hormonal IUD	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321912/MCT.f.0310.S283.R1.001.fastq.gz
+137	MCTs19	MCT.f.0311	5	4.0	F	20.7	65.3	22.9	MCT	1.0	3:33 PM	0.7	1.325	Hormonal IUD	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321913/MCT.f.0311.S493.R1.001.fastq.gz
+138	MCTs19	MCT.f.0312	6	5.0	F	20.7	65.3	22.9	MCT	1.0	7:10 PM	0.7	1.325	Hormonal IUD	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321914/MCT.f.0312.S330.R1.001.fastq.gz
+139	MCTs19	MCT.f.0313	7	6.0	F	20.7	65.3	22.9	MCT	1.0	6:05 PM	0.7	1.325	Hormonal IUD	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321915/MCT.f.0313.S3.R1.001.fastq.gz
+140	MCTs19	MCT.f.0314	8	7.0	F	20.7	65.3	22.9	MCT	1.0	10:23 PM	0.7	1.325	Hormonal IUD	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321916/MCT.f.0314.S11.R1.001.fastq.gz
+141	MCTs19	MCT.f.0315	9	8.0	F	20.7	65.3	22.9	MCT	1.0	7:18 PM	0.7	1.325	Hormonal IUD	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321917/MCT.f.0315.S419.R1.001.fastq.gz
+142	MCTs20	MCT.f.0325	2	1.0	F	33.5	69.5	23.3	EVOO	1.0	3:10 PM	-0.7	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321927/MCT.f.0325.S401.R1.001.fastq.gz
+143	MCTs20	MCT.f.0326	3	2.0	F	33.5	69.5	23.3	EVOO	1.0	11:10 AM	-0.7	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321928/MCT.f.0326.S81.R1.001.fastq.gz
+144	MCTs20	MCT.f.0327	4	3.0	F	33.5	69.5	23.3	EVOO	1.0	3:30 PM	-0.7	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321929/MCT.f.0327.S427.R1.001.fastq.gz
+145	MCTs20	MCT.f.0329	6	5.0	F	33.5	69.5	23.3	EVOO	1.0	9:30 AM	-0.7	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321930/MCT.f.0329.S36.R1.001.fastq.gz
+146	MCTs20	MCT.f.0330	7	6.0	F	33.5	69.5	23.3	EVOO	1.0	nan	-0.7	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321931/MCT.f.0330.S479.R1.001.fastq.gz
+147	MCTs20	MCT.f.0331	8	7.0	F	33.5	69.5	23.3	EVOO	1.0	1:10 PM	-0.7	1.325	Hormonal IUD;ibuprofen	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321932/MCT.f.0331.S33.R1.001.fastq.gz
+148	MCTs21	MCT.f.0341	1	0.0	F	29.1	53.7	20.6	MCT	1.0	7:00 AM	-0.1	1.725	Hormonal IUD	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321939/MCT.f.0341.S171.R1.001.fastq.gz
+149	MCTs21	MCT.f.0344	4	3.0	F	29.1	53.7	20.6	MCT	1.0	5:00 PM	-0.1	1.725	Hormonal IUD	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321941/MCT.f.0344.S213.R1.001.fastq.gz
+150	MCTs21	MCT.f.0345	5	4.0	F	29.1	53.7	20.6	MCT	1.0	3:30 PM	-0.1	1.725	Hormonal IUD	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321942/MCT.f.0345.S61.R1.001.fastq.gz
+151	MCTs21	MCT.f.0346	6	5.0	F	29.1	53.7	20.6	MCT	1.0	1:00 PM	-0.1	1.725	Hormonal IUD	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321943/MCT.f.0346.S82.R1.001.fastq.gz
+152	MCTs21	MCT.f.0347	7	6.0	F	29.1	53.7	20.6	MCT	1.0	4:30 PM	-0.1	1.725	Hormonal IUD	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321944/MCT.f.0347.S396.R1.001.fastq.gz
+153	MCTs21	MCT.f.0348	8	7.0	F	29.1	53.7	20.6	MCT	1.0	6:30 AM	-0.1	1.725	Hormonal IUD	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321945/MCT.f.0348.S255.R1.001.fastq.gz
+154	MCTs21	MCT.f.0349	9	8.0	F	29.1	53.7	20.6	MCT	1.0	7:00 PM	-0.1	1.725	Hormonal IUD	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321946/MCT.f.0349.S518.R1.001.fastq.gz
+155	MCTs22	MCT.f.0358	1	0.0	F	22.0	48.5	18.3	MCT	1.0	11:00 AM	1.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321956/MCT.f.0358.S117.R1.001.fastq.gz
+156	MCTs22	MCT.f.0359	2	1.0	F	22.0	48.5	18.3	MCT	1.0	7:30 PM	1.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321958/MCT.f.0359.S364.R1.001.fastq.gz
+157	MCTs22	MCT.f.0360	3	2.0	F	22.0	48.5	18.3	MCT	1.0	9:45 AM	1.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321959/MCT.f.0360.S491.R1.001.fastq.gz
+158	MCTs22	MCT.f.0361	4	3.0	F	22.0	48.5	18.3	MCT	1.0	11:10 AM	1.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321960/MCT.f.0361.S455.R1.001.fastq.gz
+159	MCTs22	MCT.f.0362	5	4.0	F	22.0	48.5	18.3	MCT	1.0	12:55 PM	1.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321961/MCT.f.0362.S297.R1.001.fastq.gz
+160	MCTs22	MCT.f.0363	6	5.0	F	22.0	48.5	18.3	MCT	1.0	10:05 AM	1.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321962/MCT.f.0363.S270.R1.001.fastq.gz
+161	MCTs22	MCT.f.0364	7	6.0	F	22.0	48.5	18.3	MCT	1.0	7:40 AM	1.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321963/MCT.f.0364.S55.R1.001.fastq.gz
+162	MCTs22	MCT.f.0365	8	7.0	F	22.0	48.5	18.3	MCT	1.0	8:30 AM	1.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321964/MCT.f.0365.S66.R1.001.fastq.gz
+163	MCTs22	MCT.f.0366	9	8.0	F	22.0	48.5	18.3	MCT	1.0	11:20 AM	1.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321965/MCT.f.0366.S433.R1.001.fastq.gz
+164	MCTs23	MCT.f.0375	1	0.0	M	37.9	82.9	22.3	EVOO	1.0	7:15 AM	-2.6	1.325	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321976/MCT.f.0375.S141.R1.001.fastq.gz
+165	MCTs23	MCT.f.0376	2	1.0	M	37.9	82.9	22.3	EVOO	1.0	11:00 AM	-2.6	1.325	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321977/MCT.f.0376.S513.R1.001.fastq.gz
+166	MCTs23	MCT.f.0377	3	2.0	M	37.9	82.9	22.3	EVOO	1.0	9:00 AM	-2.6	1.325	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321979/MCT.f.0377.S384.R1.001.fastq.gz
+167	MCTs23	MCT.f.0378	4	3.0	M	37.9	82.9	22.3	EVOO	1.0	9:30 AM	-2.6	1.325	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321980/MCT.f.0378.S507.R1.001.fastq.gz
+168	MCTs23	MCT.f.0379	5	4.0	M	37.9	82.9	22.3	EVOO	1.0	10:10 AM	-2.6	1.325	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321981/MCT.f.0379.S356.R1.001.fastq.gz
+169	MCTs23	MCT.f.0380	6	5.0	M	37.9	82.9	22.3	EVOO	1.0	10:15 AM	-2.6	1.325	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321982/MCT.f.0380.S196.R1.001.fastq.gz
+170	MCTs23	MCT.f.0381	7	6.0	M	37.9	82.9	22.3	EVOO	1.0	9:00 AM	-2.6	1.325	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321983/MCT.f.0381.S46.R1.001.fastq.gz
+171	MCTs23	MCT.f.0382	8	7.0	M	37.9	82.9	22.3	EVOO	1.0	3:00 PM	-2.6	1.325	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321984/MCT.f.0382.S441.R1.001.fastq.gz
+172	MCTs23	MCT.f.0383	9	8.0	M	37.9	82.9	22.3	EVOO	1.0	9:30 AM	-2.6	1.325	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321985/MCT.f.0383.S14.R1.001.fastq.gz
+173	MCTs24	MCT.f.0392	1	0.0	F	26.0	54.6	22.2	EVOO	1.0	10:00 AM	-1.4	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321996/MCT.f.0392.S282.R1.001.fastq.gz
+174	MCTs24	MCT.f.0393	2	1.0	F	26.0	54.6	22.2	EVOO	1.0	11:00 AM	-1.4	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321997/MCT.f.0393.S83.R1.001.fastq.gz
+175	MCTs24	MCT.f.0394	3	2.0	F	26.0	54.6	22.2	EVOO	1.0	9:51 PM	-1.4	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321998/MCT.f.0394.S131.R1.001.fastq.gz
+176	MCTs24	MCT.f.0395	4	3.0	F	26.0	54.6	22.2	EVOO	1.0	12:16 PM	-1.4	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321999/MCT.f.0395.S267.R1.001.fastq.gz
+177	MCTs24	MCT.f.0396	5	4.0	F	26.0	54.6	22.2	EVOO	1.0	11:50 AM	-1.4	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322000/MCT.f.0396.S78.R1.001.fastq.gz
+178	MCTs24	MCT.f.0397	6	5.0	F	26.0	54.6	22.2	EVOO	1.0	4:28 PM	-1.4	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322001/MCT.f.0397.S239.R1.001.fastq.gz
+179	MCTs24	MCT.f.0398	7	6.0	F	26.0	54.6	22.2	EVOO	1.0	3:30 PM	-1.4	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322002/MCT.f.0398.S170.R1.001.fastq.gz
+180	MCTs24	MCT.f.0399	8	7.0	F	26.0	54.6	22.2	EVOO	1.0	9:00 PM	-1.4	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322004/MCT.f.0399.S344.R1.001.fastq.gz
+181	MCTs24	MCT.f.0400	9	8.0	F	26.0	54.6	22.2	EVOO	1.0	9:00 PM	-1.4	1.55	None	Multivitamin	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322005/MCT.f.0400.S54.R1.001.fastq.gz
+182	MCTs25	MCT.f.0409	1	0.0	M	23.9	104.8	31.6	MCT	1.0	8:40 AM	0.0	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322014/MCT.f.0409.S201.R1.001.fastq.gz
+183	MCTs25	MCT.f.0410	2	1.0	M	23.9	104.8	31.6	MCT	1.0	8:40 AM	0.0	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322015/MCT.f.0410.S70.R1.001.fastq.gz
+184	MCTs25	MCT.f.0411	3	2.0	M	23.9	104.8	31.6	MCT	1.0	5:45 PM	0.0	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322016/MCT.f.0411.S102.R1.001.fastq.gz
+185	MCTs25	MCT.f.0412	4	3.0	M	23.9	104.8	31.6	MCT	1.0	4:00 PM	0.0	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322018/MCT.f.0412.S34.R1.001.fastq.gz
+186	MCTs25	MCT.f.0413	5	4.0	M	23.9	104.8	31.6	MCT	1.0	2:30 PM	0.0	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322019/MCT.f.0413.S367.R1.001.fastq.gz
+187	MCTs25	MCT.f.0414	6	5.0	M	23.9	104.8	31.6	MCT	1.0	10:00 PM	0.0	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322020/MCT.f.0414.S426.R1.001.fastq.gz
+188	MCTs25	MCT.f.0415	7	6.0	M	23.9	104.8	31.6	MCT	1.0	8:00 AM	0.0	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322021/MCT.f.0415.S280.R1.001.fastq.gz
+189	MCTs25	MCT.f.0416	8	7.0	M	23.9	104.8	31.6	MCT	1.0	8:15 AM	0.0	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322022/MCT.f.0416.S454.R1.001.fastq.gz
+190	MCTs25	MCT.f.0086	9	8.0	M	23.9	104.8	31.6	MCT	1.0	8:00 AM	0.0	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3321694/MCT.f.0086.S271.R1.001.fastq.gz
+191	MCTs26	MCT.f.0426	1	0.0	M	27.1	94.3	26.0	EVOO	1.0	7:45 AM	-2.8	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322034/MCT.f.0426.S312.R1.001.fastq.gz
+192	MCTs26	MCT.f.0427	2	1.0	M	27.1	94.3	26.0	EVOO	1.0	6:33 AM	-2.8	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322035/MCT.f.0427.S18.R1.001.fastq.gz
+193	MCTs26	MCT.f.0428	3	2.0	M	27.1	94.3	26.0	EVOO	1.0	11:00 AM	-2.8	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322036/MCT.f.0428.S303.R1.001.fastq.gz
+194	MCTs26	MCT.f.0429	4	3.0	M	27.1	94.3	26.0	EVOO	1.0	9:00 AM	-2.8	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322037/MCT.f.0429.S8.R1.001.fastq.gz
+195	MCTs26	MCT.f.0430	5	4.0	M	27.1	94.3	26.0	EVOO	1.0	12:00 PM	-2.8	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322038/MCT.f.0430.S425.R1.001.fastq.gz
+196	MCTs26	MCT.f.0431	6	5.0	M	27.1	94.3	26.0	EVOO	1.0	9:00 AM	-2.8	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322039/MCT.f.0431.S210.R1.001.fastq.gz
+197	MCTs26	MCT.f.0432	7	6.0	M	27.1	94.3	26.0	EVOO	1.0	6:45 AM	-2.8	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322040/MCT.f.0432.S365.R1.001.fastq.gz
+198	MCTs26	MCT.f.0433	8	7.0	M	27.1	94.3	26.0	EVOO	1.0	10:00 AM	-2.8	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322041/MCT.f.0433.S233.R1.001.fastq.gz
+199	MCTs26	MCT.f.0434	9	8.0	M	27.1	94.3	26.0	EVOO	1.0	5:30 PM	-2.8	1.55	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322042/MCT.f.0434.S477.R1.001.fastq.gz
+200	MCTs27	MCT.f.0443	1	0.0	F	28.8	70.9	27.3	EVOO	1.0	3:00 PM	-0.1	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322053/MCT.f.0443.S508.R1.001.fastq.gz
+201	MCTs27	MCT.f.0444	2	1.0	F	28.8	70.9	27.3	EVOO	1.0	10:00 AM	-0.1	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322054/MCT.f.0444.S217.R1.001.fastq.gz
+202	MCTs27	MCT.f.0445	3	2.0	F	28.8	70.9	27.3	EVOO	1.0	7:30 AM	-0.1	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322055/MCT.f.0445.S326.R1.001.fastq.gz
+203	MCTs27	MCT.f.0446	4	3.0	F	28.8	70.9	27.3	EVOO	1.0	8:30 AM	-0.1	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322056/MCT.f.0446.S323.R1.001.fastq.gz
+204	MCTs27	MCT.f.0447	5	4.0	F	28.8	70.9	27.3	EVOO	1.0	7:45 AM	-0.1	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322057/MCT.f.0447.S529.R1.001.fastq.gz
+205	MCTs27	MCT.f.0449	7	6.0	F	28.8	70.9	27.3	EVOO	1.0	11:30 AM	-0.1	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322058/MCT.f.0449.S229.R1.001.fastq.gz
+206	MCTs27	MCT.f.0450	8	7.0	F	28.8	70.9	27.3	EVOO	1.0	7:30 AM	-0.1	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322059/MCT.f.0450.S222.R1.001.fastq.gz
+207	MCTs27	MCT.f.0451	9	8.0	F	28.8	70.9	27.3	EVOO	1.0	1:00 PM	-0.1	1.325	Estrogen/progestrin bc pill;lexapro;cold meds	Multivitamin;VitD	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322060/MCT.f.0451.S124.R1.001.fastq.gz
+208	MCTs28	MCT.f.0460	1	0.0	F	61.0	50.1	18.9	MCT	1.0	8:00 AM	nan	1.325	Thyroid hormone	VitD;VitB;gulcosamine	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322071/MCT.f.0460.S386.R1.001.fastq.gz
+209	MCTs28	MCT.f.0461	2	1.0	F	61.0	50.1	18.9	MCT	1.0	9:35 PM	nan	1.325	Thyroid hormone	VitD;VitB;gulcosamine	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322072/MCT.f.0461.S520.R1.001.fastq.gz
+210	MCTs28	MCT.f.0462	3	2.0	F	61.0	50.1	18.9	MCT	1.0	2:25 PM	nan	1.325	Thyroid hormone	VitD;VitB;gulcosamine	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322073/MCT.f.0462.S422.R1.001.fastq.gz
+211	MCTs28	MCT.f.0463	4	3.0	F	61.0	50.1	18.9	MCT	1.0	8:10 AM	nan	1.325	Thyroid hormone	VitD;VitB;gulcosamine	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322074/MCT.f.0463.S216.R1.001.fastq.gz
+212	MCTs28	MCT.f.0464	5	4.0	F	61.0	50.1	18.9	MCT	1.0	3:07 PM	nan	1.325	Thyroid hormone	VitD;VitB;gulcosamine	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322075/MCT.f.0464.S59.R1.001.fastq.gz
+213	MCTs28	MCT.f.0465	6	5.0	F	61.0	50.1	18.9	MCT	1.0	7:30 AM	nan	1.325	Thyroid hormone	VitD;VitB;gulcosamine	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322076/MCT.f.0465.S459.R1.001.fastq.gz
+214	MCTs28	MCT.f.0467	8	7.0	F	61.0	50.1	18.9	MCT	1.0	2:55 PM	nan	1.325	Thyroid hormone	VitD;VitB;gulcosamine	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322077/MCT.f.0467.S119.R1.001.fastq.gz
+215	MCTs28	MCT.f.0468	9	8.0	F	61.0	50.1	18.9	MCT	1.0	2:20 PM	nan	1.325	Thyroid hormone	VitD;VitB;gulcosamine	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322079/MCT.f.0468.S108.R1.001.fastq.gz
+216	MCTs29	MCT.f.0477	1	0.0	F	22.3	69.3	26.2	EVOO	1.0	8:20 PM	-1.1	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322085/MCT.f.0477.S178.R1.001.fastq.gz
+217	MCTs29	MCT.f.0481	5	4.0	F	22.3	69.3	26.2	EVOO	1.0	1:45 PM	-1.1	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322087/MCT.f.0481.S415.R1.001.fastq.gz
+218	MCTs29	MCT.f.0482	6	5.0	F	22.3	69.3	26.2	EVOO	1.0	2:30 PM	-1.1	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322088/MCT.f.0482.S435.R1.001.fastq.gz
+219	MCTs30	MCT.f.0494	1	0.0	F	26.0	70.6	26.5	nan	1.0	8:05 AM	nan	1.55	Estrogen/progestrin bc pill	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322093/MCT.f.0494.S206.R1.001.fastq.gz
+220	MCTs30	MCT.f.0495	2	1.0	F	26.0	70.6	26.5	nan	1.0	8:19 AM	nan	1.55	Estrogen/progestrin bc pill	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322094/MCT.f.0495.S202.R1.001.fastq.gz
+221	MCTs31	MCT.f.0511	1	0.0	F	30.1	59.9	22.1	EVOO	1.0	12:45 PM	-0.3	1.55	None	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322095/MCT.f.0511.S488.R1.001.fastq.gz
+222	MCTs31	MCT.f.0512	2	1.0	F	30.1	59.9	22.1	EVOO	1.0	2:45 PM	-0.3	1.55	None	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322096/MCT.f.0512.S424.R1.001.fastq.gz
+223	MCTs31	MCT.f.0513	3	2.0	F	30.1	59.9	22.1	EVOO	1.0	9:15 AM	-0.3	1.55	None	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322097/MCT.f.0513.S207.R1.001.fastq.gz
+224	MCTs31	MCT.f.0514	4	3.0	F	30.1	59.9	22.1	EVOO	1.0	10:00 AM	-0.3	1.55	None	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322098/MCT.f.0514.S416.R1.001.fastq.gz
+225	MCTs31	MCT.f.0515	5	4.0	F	30.1	59.9	22.1	EVOO	1.0	10:50 AM	-0.3	1.55	None	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322099/MCT.f.0515.S436.R1.001.fastq.gz
+226	MCTs31	MCT.f.0516	6	5.0	F	30.1	59.9	22.1	EVOO	1.0	11:55 AM	-0.3	1.55	None	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322100/MCT.f.0516.S115.R1.001.fastq.gz
+227	MCTs31	MCT.f.0517	7	6.0	F	30.1	59.9	22.1	EVOO	1.0	10:20 AM	-0.3	1.55	None	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322101/MCT.f.0517.S259.R1.001.fastq.gz
+228	MCTs31	MCT.f.0519	9	8.0	F	30.1	59.9	22.1	EVOO	1.0	9:10 AM	-0.3	1.55	None	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322102/MCT.f.0519.S428.R1.001.fastq.gz
+229	MCTs32	MCT.f.0528	1	0.0	M	37.0	83.5	25.3	EVOO	1.0	10:30 AM	-0.4	1.325	None	Multivitamin;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322112/MCT.f.0528.S328.R1.001.fastq.gz
+230	MCTs32	MCT.f.0529	2	1.0	M	37.0	83.5	25.3	EVOO	1.0	7:30 AM	-0.4	1.325	None	Multivitamin;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322113/MCT.f.0529.S245.R1.001.fastq.gz
+231	MCTs32	MCT.f.0530	3	2.0	M	37.0	83.5	25.3	EVOO	1.0	8:30 AM	-0.4	1.325	None	Multivitamin;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322114/MCT.f.0530.S127.R1.001.fastq.gz
+232	MCTs32	MCT.f.0531	4	3.0	M	37.0	83.5	25.3	EVOO	1.0	3:51 PM	-0.4	1.325	None	Multivitamin;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322115/MCT.f.0531.S339.R1.001.fastq.gz
+233	MCTs32	MCT.f.0532	5	4.0	M	37.0	83.5	25.3	EVOO	1.0	10:20 AM	-0.4	1.325	None	Multivitamin;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322116/MCT.f.0532.S480.R1.001.fastq.gz
+234	MCTs32	MCT.f.0533	6	5.0	M	37.0	83.5	25.3	EVOO	1.0	6:10 PM	-0.4	1.325	None	Multivitamin;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322117/MCT.f.0533.S57.R1.001.fastq.gz
+235	MCTs32	MCT.f.0534	7	6.0	M	37.0	83.5	25.3	EVOO	1.0	8:58 AM	-0.4	1.325	None	Multivitamin;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322118/MCT.f.0534.S489.R1.001.fastq.gz
+236	MCTs32	MCT.f.0535	8	7.0	M	37.0	83.5	25.3	EVOO	1.0	8:41 AM	-0.4	1.325	None	Multivitamin;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322119/MCT.f.0535.S343.R1.001.fastq.gz
+237	MCTs32	MCT.f.0536	9	8.0	M	37.0	83.5	25.3	EVOO	1.0	8:34 AM	-0.4	1.325	None	Multivitamin;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322120/MCT.f.0536.S146.R1.001.fastq.gz
+238	MCTs33	MCT.f.0545	1	0.0	M	37.9	64.5	23.4	MCT	1.0	No Time	-0.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322130/MCT.f.0545.S135.R1.001.fastq.gz
+239	MCTs33	MCT.f.0546	2	1.0	M	37.9	64.5	23.4	MCT	1.0	No Time	-0.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322132/MCT.f.0546.S157.R1.001.fastq.gz
+240	MCTs33	MCT.f.0547	3	2.0	M	37.9	64.5	23.4	MCT	1.0	No Time	-0.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322134/MCT.f.0547.S481.R1.001.fastq.gz
+241	MCTs33	MCT.f.0548	4	3.0	M	37.9	64.5	23.4	MCT	1.0	No Time	-0.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322135/MCT.f.0548.S156.R1.001.fastq.gz
+242	MCTs33	MCT.f.0549	5	4.0	M	37.9	64.5	23.4	MCT	1.0	No Time	-0.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322137/MCT.f.0549.S294.R1.001.fastq.gz
+243	MCTs33	MCT.f.0550	6	5.0	M	37.9	64.5	23.4	MCT	1.0	No Time	-0.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322138/MCT.f.0550.S150.R1.001.fastq.gz
+244	MCTs33	MCT.f.0551	7	6.0	M	37.9	64.5	23.4	MCT	1.0	No Time	-0.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322140/MCT.f.0551.S39.R1.001.fastq.gz
+245	MCTs33	MCT.f.0552	8	7.0	M	37.9	64.5	23.4	MCT	1.0	No Time	-0.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322141/MCT.f.0552.S357.R1.001.fastq.gz
+246	MCTs33	MCT.f.0553	9	8.0	M	37.9	64.5	23.4	MCT	1.0	No Time	-0.6	1.325	None	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322142/MCT.f.0553.S376.R1.001.fastq.gz
+247	MCTs34	MCT.f.0562	1	0.0	F	41.4	53.9	20.7	EVOO	1.0	No Time	nan	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322152/MCT.f.0562.S167.R1.001.fastq.gz
+248	MCTs34	MCT.f.0564	3	2.0	F	41.4	53.9	20.7	EVOO	1.0	No Time	nan	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322154/MCT.f.0564.S338.R1.001.fastq.gz
+249	MCTs34	MCT.f.0565	4	3.0	F	41.4	53.9	20.7	EVOO	1.0	No Time	nan	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322155/MCT.f.0565.S67.R1.001.fastq.gz
+250	MCTs34	MCT.f.0566	5	4.0	F	41.4	53.9	20.7	EVOO	1.0	No Time	nan	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322156/MCT.f.0566.S35.R1.001.fastq.gz
+251	MCTs34	MCT.f.0567	6	5.0	F	41.4	53.9	20.7	EVOO	1.0	No Time	nan	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322157/MCT.f.0567.S95.R1.001.fastq.gz
+252	MCTs34	MCT.f.0568	7	6.0	F	41.4	53.9	20.7	EVOO	1.0	No Time	nan	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322158/MCT.f.0568.S502.R1.001.fastq.gz
+253	MCTs34	MCT.f.0570	9	8.0	F	41.4	53.9	20.7	EVOO	1.0	No Time	nan	1.325	Thyroid hormone;lexapro	Multivitamin;VitD;fish oil	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322159/MCT.f.0570.S317.R1.001.fastq.gz
+254	MCTs35	MCT.f.0579	1	0.0	F	29.5	64.5	24.2	EVOO	1.0	5:35 AM	1.0	1.55	ibuprofen	Multivitamin;folate	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322166/MCT.f.0579.S181.R1.001.fastq.gz
+255	MCTs35	MCT.f.0580	2	1.0	F	29.5	64.5	24.2	EVOO	1.0	5:55 AM	1.0	1.55	ibuprofen	Multivitamin;folate	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322168/MCT.f.0580.S152.R1.001.fastq.gz
+256	MCTs35	MCT.f.0581	3	2.0	F	29.5	64.5	24.2	EVOO	1.0	6:00 AM	1.0	1.55	ibuprofen	Multivitamin;folate	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322169/MCT.f.0581.S340.R1.001.fastq.gz
+257	MCTs35	MCT.f.0582	4	3.0	F	29.5	64.5	24.2	EVOO	1.0	6:08 AM	1.0	1.55	ibuprofen	Multivitamin;folate	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322170/MCT.f.0582.S215.R1.001.fastq.gz
+258	MCTs35	MCT.f.0583	5	4.0	F	29.5	64.5	24.2	EVOO	1.0	4:00 PM	1.0	1.55	ibuprofen	Multivitamin;folate	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322171/MCT.f.0583.S205.R1.001.fastq.gz
+259	MCTs35	MCT.f.0585	7	6.0	F	29.5	64.5	24.2	EVOO	1.0	5:42 AM	1.0	1.55	ibuprofen	Multivitamin;folate	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322172/MCT.f.0585.S136.R1.001.fastq.gz
+260	MCTs35	MCT.f.0586	8	7.0	F	29.5	64.5	24.2	EVOO	1.0	5:55 AM	1.0	1.55	ibuprofen	Multivitamin;folate	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322174/MCT.f.0586.S402.R1.001.fastq.gz
+261	MCTs35	MCT.f.0587	9	8.0	F	29.5	64.5	24.2	EVOO	1.0	6:00 AM	1.0	1.55	ibuprofen	Multivitamin;folate	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322175/MCT.f.0587.S369.R1.001.fastq.gz
+262	MCTs36	MCT.f.0596	1	0.0	M	61.6	74.9	27.8	EVOO	1.0	7:40 AM	0.2	1.55	lisinopril	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322182/MCT.f.0596.S464.R1.001.fastq.gz
+263	MCTs36	MCT.f.0597	2	1.0	M	61.6	74.9	27.8	EVOO	1.0	7:15 AM	0.2	1.55	lisinopril	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322183/MCT.f.0597.S41.R1.001.fastq.gz
+264	MCTs36	MCT.f.0598	3	2.0	M	61.6	74.9	27.8	EVOO	1.0	7:20 AM	0.2	1.55	lisinopril	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322184/MCT.f.0598.S38.R1.001.fastq.gz
+265	MCTs36	MCT.f.0599	4	3.0	M	61.6	74.9	27.8	EVOO	1.0	6:30 AM	0.2	1.55	lisinopril	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322185/MCT.f.0599.S522.R1.001.fastq.gz
+266	MCTs36	MCT.f.0600	5	4.0	M	61.6	74.9	27.8	EVOO	1.0	4:30 AM	0.2	1.55	lisinopril	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322186/MCT.f.0600.S261.R1.001.fastq.gz
+267	MCTs36	MCT.f.0601	6	5.0	M	61.6	74.9	27.8	EVOO	1.0	11:50 AM	0.2	1.55	lisinopril	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322187/MCT.f.0601.S72.R1.001.fastq.gz
+268	MCTs36	MCT.f.0602	7	6.0	M	61.6	74.9	27.8	EVOO	1.0	6:35 AM	0.2	1.55	lisinopril	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322188/MCT.f.0602.S244.R1.001.fastq.gz
+269	MCTs36	MCT.f.0603	8	7.0	M	61.6	74.9	27.8	EVOO	1.0	7:00 AM	0.2	1.55	lisinopril	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322189/MCT.f.0603.S266.R1.001.fastq.gz
+270	MCTs36	MCT.f.0604	9	8.0	M	61.6	74.9	27.8	EVOO	1.0	7:30 AM	0.2	1.55	lisinopril	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322190/MCT.f.0604.S530.R1.001.fastq.gz
+271	MCTs37	MCT.f.0613	1	0.0	M	45.2	84.9	27.3	MCT	1.0	6:00 AM	-1.3	1.325	Metformin;ranitidine;atrovistatin	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322200/MCT.f.0613.S409.R1.001.fastq.gz
+272	MCTs37	MCT.f.0614	2	1.0	M	45.2	84.9	27.3	MCT	1.0	6:45 AM	-1.3	1.325	Metformin;ranitidine;atrovistatin	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322201/MCT.f.0614.S453.R1.001.fastq.gz
+273	MCTs37	MCT.f.0615	3	2.0	M	45.2	84.9	27.3	MCT	1.0	7:35 AM	-1.3	1.325	Metformin;ranitidine;atrovistatin	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322202/MCT.f.0615.S498.R1.001.fastq.gz
+274	MCTs37	MCT.f.0616	4	3.0	M	45.2	84.9	27.3	MCT	1.0	7:00 AM	-1.3	1.325	Metformin;ranitidine;atrovistatin	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322203/MCT.f.0616.S278.R1.001.fastq.gz
+275	MCTs37	MCT.f.0617	5	4.0	M	45.2	84.9	27.3	MCT	1.0	7:30 AM	-1.3	1.325	Metformin;ranitidine;atrovistatin	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322204/MCT.f.0617.S253.R1.001.fastq.gz
+276	MCTs37	MCT.f.0618	6	5.0	M	45.2	84.9	27.3	MCT	1.0	8:15 AM	-1.3	1.325	Metformin;ranitidine;atrovistatin	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322205/MCT.f.0618.S500.R1.001.fastq.gz
+277	MCTs37	MCT.f.0619	7	6.0	M	45.2	84.9	27.3	MCT	1.0	4:45 AM	-1.3	1.325	Metformin;ranitidine;atrovistatin	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322206/MCT.f.0619.S230.R1.001.fastq.gz
+278	MCTs37	MCT.f.0620	8	7.0	M	45.2	84.9	27.3	MCT	1.0	6:15 PM	-1.3	1.325	Metformin;ranitidine;atrovistatin	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322207/MCT.f.0620.S390.R1.001.fastq.gz
+279	MCTs37	MCT.f.0621	9	8.0	M	45.2	84.9	27.3	MCT	1.0	6:45 PM	-1.3	1.325	Metformin;ranitidine;atrovistatin	None	ftp.sra.ebi.ac.uk/vol1/run/ERR332/ERR3322208/MCT.f.0621.S398.R1.001.fastq.gz
