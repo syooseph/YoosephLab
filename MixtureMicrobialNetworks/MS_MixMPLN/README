@@ -1,0 +1,32 @@
+This is an implementation of the MS_MixMPLN algorithm as described in the paper
+Variational Approximation-based Model Selection for Microbial Network Inference
+by Yooseph and Tavakoli
+
+
+The sample-taxa count matrix can be provided to the function
+best_model either as an R matrix using the variable X or it can be
+read from a csv file using the variable F. Only one of X or F is
+needed in the function call.
+
+n: #samples
+d: #taxa
+K: #component distributions in the mixture model
+beta, v, and V are the priors used in the model (see paper)
+
+Program call to function best_model
+Options:
+X: the dxn sample-taxa matrix
+F: csv file with n+1 lines and d columns; the first line (header) is ignored
+beta: prior for the Gaussian distribution for mu_l
+v, V: priors for the Wishart distribution for Omega_l
+niter: max #iterations for the EM algorithm
+start: #starting random starting points for the EM algorithm
+
+
+Program usage example:
+source("MS_MixMPLN.R")
+Result = best_model(F="example/example_d50_graph_band_K2.csv",K=4,beta=1e-6,v=50,V=51*diag(50),niter=30,start=25))
+
+Result is an R object that contains a set of information related to
+the variational parameters and the mixing coefficient
+estimates. Result$Pi returns the vector of mixing coefficients.
