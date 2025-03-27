@@ -1,8 +1,8 @@
 This directory contains implementations in R of the model selection algorithms
 described in the paper titled
 Model Selection for Sparse Microbial Network Inference using Variational Approximation
-by Yooseph. This work was presented at the 13th International Conference on Computational 
-Advances in Bio and Medical Sciences (ICCABS 2025).
+by Yooseph. 
+This work was presented at the 13th International Conference on Computational Advances in Bio and Medical Sciences (ICCABS 2025).
 
 The two programs are MS_MixGGM_all.R and MS_MixMPLN_all.R. These programs implement the
 different variants of the model selection algorithms to determine the number of components
