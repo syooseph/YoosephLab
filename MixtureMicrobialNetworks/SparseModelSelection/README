@@ -1,1 +1,75 @@
+This directory contains implementations in R of the model selection algorithms described in 
+the paper titled
+Model Selection for Sparse Microbial Network Inference using Variational Approximation
+by Yooseph. This work was presented at ICCABS 2025.
+
+The two programs are MS_MixGGM_all.R and MS_MixMPLN.R. These programs implement the
+different variants of the model selection algorithms to determine the number of components
+for a mixture of Gaussians (MS_MixGGM) and for a mixture of MPLNs (MS_MixMPLN), respectively.
+
+Each program can run one of 6 methods (5 sparse methods and 1 non-sparse method). See
+the paper for details.
+# Sparse methods: pcor, GLASSO (EBIC, CV), TIGER (EBIC, CV)
+# Method: 0 (non-sparse), 1 (pcor), 2 (glasso EBIC), 3 (glasso CV), 4 (tiger ebic), 5 (tiger 
+cv)
+
+Each program takes as input a sample-taxa matrix. This matrix can be provided
+as an R matrix using the variable X or it can be read from a csv file using the 
+variable F. Only one of X or F is needed in the function call.
+
+n: #samples
+d: #taxa
+K: #component distributions in the MPLN mixture model
+M: #component distributions in the Gaussian mixture model
+beta, v, and V are the priors used in the model (see paper)
+
+
+MS_MixGGM.R:
+------------
+Program call to function best_model
+Options:
+X: the dxn sample-taxa matrix
+F: csv file with n+1 lines and d columns; the first line (header) is ignored
+M: number of mixture components
+beta: prior for the Gaussian distribution for mu_l
+v, V: priors for the Wishart distribution for Omega_l
+niter: max #iterations for the EM algorithm
+start: #starting random starting points for the EM algorithm
+method: 0-5 (choice of method) {# Method: 0 (non-sparse), 1 (pcor), 2 (glasso EBIC), 3 (glasso CV), 4 (tiger ebic), 5 (tiger 
+cv)}
+seed: seed for random number generator
+alpha: threshold for pcor method
+
+Program usage example:
+source('MS_MixGGM_all.R')
+Result=best_model(F="example/ggm_X_d50_graph_band_K2_n100.csv",M=4,beta=1e-6,v=50,V=50*diag(50),niter=25,seed=1001,start=25,method=1)
+
+Result is an R object that contains a set of information related to
+the variational parameters and the mixing coefficient
+estimates. Result$Pi returns the vector of mixing coefficients.
+
+MS_MixMPLN.R:
+------------
+Program call to function best_model
+Options:
+X: the dxn sample-taxa matrix
+F: csv file with n+1 lines and d columns; the first line (header) is ignored
+K: number of mixture components
+beta: prior for the Gaussian distribution for mu_l
+v, V: priors for the Wishart distribution for Omega_l
+niter: max #iterations for the EM algorithm
+start: #starting random starting points for the EM algorithm
+method: 0-5 (choice of method) {# Method: 0 (non-sparse), 1 (pcor), 2 (glasso EBIC), 3 (glasso CV), 4 (tiger ebic), 5 (tiger 
+cv)}
+seed: seed for random number generator
+alpha: threshold for pcor method
+
+Program usage example:
+source('MS_MixMPLN_all.R')
+Result=best_model(F="example/mpln_X_d50_graph_band_K2_n100.csv",K=4,beta=1e-6,v=50,V=50*diag(50),niter=25,seed=1001,start=25,method=1)
+
+Result is an R object that contains a set of information related to
+the variational parameters and the mixing coefficient
+estimates. Result$Pi returns the vector of mixing coefficients.
+
 
