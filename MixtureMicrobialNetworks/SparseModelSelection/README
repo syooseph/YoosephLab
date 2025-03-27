@@ -4,7 +4,7 @@ Model Selection for Sparse Microbial Network Inference using Variational Approxi
 by Yooseph. This work was presented at the 13th International Conference on Computational 
 Advances in Bio and Medical Sciences (ICCABS 2025).
 
-The two programs are MS_MixGGM_all.R and MS_MixMPLN.R. These programs implement the
+The two programs are MS_MixGGM_all.R and MS_MixMPLN_all.R. These programs implement the
 different variants of the model selection algorithms to determine the number of components
 for a mixture of Gaussians (MS_MixGGM) and for a mixture of MPLNs (MS_MixMPLN), respectively.
 
